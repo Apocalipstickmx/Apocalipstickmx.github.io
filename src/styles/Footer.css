@@ -1,0 +1,20 @@
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    width: 100%;
+    padding: 0 100px 0 100px;
+    background: rgb(0, 0, 0, 0.6) ;
+}
+
+.icons-container a {
+    color: white;
+    font-size: 30px;
+}
+
+.icons-container a:hover{
+    color: #e728d4;
+    font-size: 40px;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Regular';
+    src: local('SantioRegular'),
+     url('./fonts/Santio/SantioRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boldline';
+    src: local('SantioBoldline'),
+     url('./fonts/Santio/SantioBoldline.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: local('SantioBold'),
+     url('./fonts/Santio/SantioBold.ttf') format('truetype');
+}
+
+.bg-video {
+    position: fixed;
+    z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
+}
